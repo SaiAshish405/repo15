@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,td{border: 1px solid;
+    border-collapse:collapse ;}
+    img{height: 100px;
+    width: 100px;}
+    @media screen and (max-width:320px) {
+        table.t2{display: none;}
+        table.t3{display: none;}
+    }
+    @media screen and (min-width:321px) and (max-width:420px) {
+        table.t1{display: none;}
+        table.t3{display: none;}
+    }
+    @media screen and (min-width:420px) {
+        table.t1{display: none;}
+        table.t2{display: none;}
+    }
+</style>
+<body>
+    <table class="t1">
+        <tr>
+            <td><img  src="./bhumra.jpg" alt=""></td></tr>
+    </table>
+    <table class="t2">
+        <tr>
+            <td><img  src="./bhumra.jpg" alt=""></td>
+            <td><img  src="./shami.jpg" alt=""></td>
+           
+        </tr>
+        <tr>
+            <td><img  src="./vk6.jpg" alt=""></td>
+            <td><img  src="./gill.jpg" alt=""></td>
+        </tr>
+    </table>
+    <table class="t3">
+        <tr>
+            <td><img  src="./bhumra.jpg" alt=""></td>
+            <td><img  src="./shami.jpg" alt=""></td>
+            <td><img  src="./rohit.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><img  src="./vk6.jpg" alt=""></td>
+            <td><img  src="./gill.jpg" alt=""></td>
+            <td><img  src="./CSK.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><img  src="./jadeja.jpg" alt=""></td>
+            <td><img  src="./GT.jpg" alt=""></td>
+            <td><img  src="./KKR.jpg" alt=""></td>
+        </tr>
+    </table>
+</body>
+</html>
